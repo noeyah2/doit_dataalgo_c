@@ -7,4 +7,5 @@ include_directories(.)
 
 add_executable(chap02
         ary_max.c
-        ary_max_rand.c)
+        ary_max_rand.c
+        rev_ary.c)
