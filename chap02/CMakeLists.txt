@@ -8,4 +8,9 @@ include_directories(.)
 add_executable(chap02
         ary_max.c
         ary_max_rand.c
-        rev_ary.c)
+        rev_ary.c
+        card_conv.c
+        prime1.c
+        prime2.c
+        prime3.c
+        dayofyear.c)

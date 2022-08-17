@@ -67,6 +67,41 @@ build CMakeFiles/chap02.dir/rev_ary.c.o: C_COMPILER__chap02_Debug /Users/hayeon/
   OBJECT_DIR = CMakeFiles/chap02.dir
   OBJECT_FILE_DIR = CMakeFiles/chap02.dir
 
+build CMakeFiles/chap02.dir/card_conv.c.o: C_COMPILER__chap02_Debug /Users/hayeon/Desktop/Programming/doit_dataalgo_C/doit_dataalgo_c/chap02/card_conv.c || cmake_object_order_depends_target_chap02
+  DEP_FILE = CMakeFiles/chap02.dir/card_conv.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/hayeon/Desktop/Programming/doit_dataalgo_C/doit_dataalgo_c/chap02/.
+  OBJECT_DIR = CMakeFiles/chap02.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap02.dir
+
+build CMakeFiles/chap02.dir/prime1.c.o: C_COMPILER__chap02_Debug /Users/hayeon/Desktop/Programming/doit_dataalgo_C/doit_dataalgo_c/chap02/prime1.c || cmake_object_order_depends_target_chap02
+  DEP_FILE = CMakeFiles/chap02.dir/prime1.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/hayeon/Desktop/Programming/doit_dataalgo_C/doit_dataalgo_c/chap02/.
+  OBJECT_DIR = CMakeFiles/chap02.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap02.dir
+
+build CMakeFiles/chap02.dir/prime2.c.o: C_COMPILER__chap02_Debug /Users/hayeon/Desktop/Programming/doit_dataalgo_C/doit_dataalgo_c/chap02/prime2.c || cmake_object_order_depends_target_chap02
+  DEP_FILE = CMakeFiles/chap02.dir/prime2.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/hayeon/Desktop/Programming/doit_dataalgo_C/doit_dataalgo_c/chap02/.
+  OBJECT_DIR = CMakeFiles/chap02.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap02.dir
+
+build CMakeFiles/chap02.dir/prime3.c.o: C_COMPILER__chap02_Debug /Users/hayeon/Desktop/Programming/doit_dataalgo_C/doit_dataalgo_c/chap02/prime3.c || cmake_object_order_depends_target_chap02
+  DEP_FILE = CMakeFiles/chap02.dir/prime3.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/hayeon/Desktop/Programming/doit_dataalgo_C/doit_dataalgo_c/chap02/.
+  OBJECT_DIR = CMakeFiles/chap02.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap02.dir
+
+build CMakeFiles/chap02.dir/dayofyear.c.o: C_COMPILER__chap02_Debug /Users/hayeon/Desktop/Programming/doit_dataalgo_C/doit_dataalgo_c/chap02/dayofyear.c || cmake_object_order_depends_target_chap02
+  DEP_FILE = CMakeFiles/chap02.dir/dayofyear.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu11
+  INCLUDES = -I/Users/hayeon/Desktop/Programming/doit_dataalgo_C/doit_dataalgo_c/chap02/.
+  OBJECT_DIR = CMakeFiles/chap02.dir
+  OBJECT_FILE_DIR = CMakeFiles/chap02.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target chap02
@@ -75,7 +110,7 @@ build CMakeFiles/chap02.dir/rev_ary.c.o: C_COMPILER__chap02_Debug /Users/hayeon/
 #############################################
 # Link the executable chap02
 
-build chap02: C_EXECUTABLE_LINKER__chap02_Debug CMakeFiles/chap02.dir/ary_max.c.o CMakeFiles/chap02.dir/ary_max_rand.c.o CMakeFiles/chap02.dir/rev_ary.c.o
+build chap02: C_EXECUTABLE_LINKER__chap02_Debug CMakeFiles/chap02.dir/ary_max.c.o CMakeFiles/chap02.dir/ary_max_rand.c.o CMakeFiles/chap02.dir/rev_ary.c.o CMakeFiles/chap02.dir/card_conv.c.o CMakeFiles/chap02.dir/prime1.c.o CMakeFiles/chap02.dir/prime2.c.o CMakeFiles/chap02.dir/prime3.c.o CMakeFiles/chap02.dir/dayofyear.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/chap02.dir
   POST_BUILD = :
